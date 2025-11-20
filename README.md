@@ -30,6 +30,7 @@ Notable parts of our repo are as follows:
 - `data` contains model outputs and human annotations.
 - `Objective Query - PHIA.xlsx` contains 4000 objective queries. For example: "What was the distance of my longest run in the past 21 days?"
 - `Open-Ended Query - PHIA.xlsx` contains 172 open-ended queries. For example: "How do I reduce stress?"
+- `real_wearable_users` contains a set of deidentified real wearable users. All subjects are used in evaluation.
 - `synthetic_wearable_users` contains a set of synthetic wearable users. Subject 465, 333, 171, and 41 are used in evaluation.
 - `few_shots` contains all of our few-shot examples that are utilized by PHIA.
 - `phia_agent.py` contains the core agent logic for PHIA.
